@@ -1,0 +1,35 @@
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+*.png
+*.jpg
+plots/
+
+# Keep folder structure
+!data/.gitkeep
+!images/.gitkeep
+!images/powerbi-dashboards/.gitkeep
